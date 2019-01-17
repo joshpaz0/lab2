@@ -5,10 +5,21 @@
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
 	color: #CC00AA;
 }
 
+.project {
+		margin-left: 1px;
+			background-color: #deebf7;
+			padding: 1px;
+			width: 1px;
+}
+
+p {
+	font-variant: small-caps;
+
+}
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
@@ -30,5 +41,5 @@ body {
      bottom: 0;
      right: 0;
      position: absolute;
-     z-index: -1;	
+     z-index: -1;
 }
